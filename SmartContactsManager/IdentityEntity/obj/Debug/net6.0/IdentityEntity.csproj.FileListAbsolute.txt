@@ -1,0 +1,12 @@
+F:\E-dac\.net\SmartContactsManager\IdentityEntity\bin\Debug\net6.0\IdentityEntity.deps.json
+F:\E-dac\.net\SmartContactsManager\IdentityEntity\bin\Debug\net6.0\IdentityEntity.dll
+F:\E-dac\.net\SmartContactsManager\IdentityEntity\bin\Debug\net6.0\IdentityEntity.pdb
+F:\E-dac\.net\SmartContactsManager\IdentityEntity\obj\Debug\net6.0\IdentityEntity.csproj.AssemblyReference.cache
+F:\E-dac\.net\SmartContactsManager\IdentityEntity\obj\Debug\net6.0\IdentityEntity.GeneratedMSBuildEditorConfig.editorconfig
+F:\E-dac\.net\SmartContactsManager\IdentityEntity\obj\Debug\net6.0\IdentityEntity.AssemblyInfoInputs.cache
+F:\E-dac\.net\SmartContactsManager\IdentityEntity\obj\Debug\net6.0\IdentityEntity.AssemblyInfo.cs
+F:\E-dac\.net\SmartContactsManager\IdentityEntity\obj\Debug\net6.0\IdentityEntity.csproj.CoreCompileInputs.cache
+F:\E-dac\.net\SmartContactsManager\IdentityEntity\obj\Debug\net6.0\IdentityEntity.dll
+F:\E-dac\.net\SmartContactsManager\IdentityEntity\obj\Debug\net6.0\refint\IdentityEntity.dll
+F:\E-dac\.net\SmartContactsManager\IdentityEntity\obj\Debug\net6.0\IdentityEntity.pdb
+F:\E-dac\.net\SmartContactsManager\IdentityEntity\obj\Debug\net6.0\ref\IdentityEntity.dll

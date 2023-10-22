@@ -1,0 +1,49 @@
+﻿@model LoginDto
+@{
+    ViewBag.Title = "Login";
+}
+
+<div  id="login">
+			<div class="container">
+				<div id="login-row"
+					class="row justify-content-center align-items-center">
+					<div id="login-column" class="col-md-6">
+						<div id="login-box" class="col-md-12">
+                            <form id="login-form" class="form" asp-controller="Account" asp-action="Login" method="post">
+								<h3 class="text-center text-info">Login</h3>
+								<div class="form-group">
+                                    <label asp-for="Email" class="text-info">Email : </label><br>
+                                    <input asp-for="Email" class="form-control"/>
+							<span asp-validation-for="Email" class="text-red"></span>
+								</div>
+                                <div class="form-group">
+                                    <label asp-for="Password" class="text-info">Password : </label><br>
+                                    <input asp-for="Password" class="form-control" />
+                            <span asp-validation-for="Password" class="text-red"></span>
+                                </div>
+								<div class="form-group">
+									<input type="submit"
+										name="submit" class="btn btn-info btn-md mt-3" value="submit">
+								</div>
+								<div asp-validation-summary="All" class="text-red"></div>
+
+								<div id="register-link" class="text-right">
+                                        <a asp-action="Register" asp-controller="Account" class="text-info">Register here</a>
+								</div>
+
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+@section scripts
+    {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" asp-fallback-test="window.jQuery" asp-fallback-src="~/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.4/jquery.validate.min.js" asp-fallback-test="window.jQuery.validator" asp-fallback-src="~/jquery.validate.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js" asp-fallback-test="window.jQuery.validator.unobstrusive" asp-fallback-src="~/jquery.validate.unobtrusive.min.js"></script>
+}
+

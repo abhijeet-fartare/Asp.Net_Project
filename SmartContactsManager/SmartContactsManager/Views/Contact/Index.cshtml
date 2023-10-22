@@ -1,0 +1,103 @@
+﻿@model IEnumerable<ContactResponse>
+@{
+    ViewBag.Title = "Contact/index";
+}
+
+@* Eg: searchBy=ContactName&searchString=abc *@
+
+<form asp-controller="Contact" asp-action="Index">
+
+  <div class="card mr-3 ml-3">
+    <div class="card-body">
+        <h1 class=" title_contact text-center">Your Contacts</h1>
+
+        <div class="box flex">
+            <div class="flex-1">
+                    <select class="form-input " name="SearchBy">
+                    @foreach (var field in ViewBag.SearchFields)
+                    {
+                        <option value="@field.Key">@field.Value</option>
+                    }
+                </select>
+            </div>
+
+            <div class="flex-1">
+                    <input type="search" id="Search" class="form-input Space" placeholder="Search"
+                       name="SearchString" value="@ViewBag.CurrentSearchString" />
+            </div>
+
+                <div class="flex-1 ">
+                    <button class="button button-blue-back">Search</button>
+                    <a asp-controller="Contact" asp-action="Index" class="btn btn-outline-danger Space btn-sm">Clear all</a>
+            </div>
+        </div>
+
+            @if (User.IsInRole("ADMIN"))
+            {
+                <div class="text-center mt-4">
+                    <a asp-controller="Contact" asp-action="Create" class="btn bg-primary btn-lg text-white">Create Contact</a>
+                </div>
+            }
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        @await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary(ViewData)
+                        {
+                        { "ColumnName", nameof(ContactResponse.Name) },
+                        { "DisplayName", "Name" },
+                        })
+
+                        @await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary(ViewData)
+                        {
+                        { "ColumnName", nameof(ContactResponse.Phone) },
+                        { "DisplayName", "Phone" },
+                        })
+                        @await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary(ViewData)
+                        {
+                        { "ColumnName", nameof(ContactResponse.Email) },
+                        { "DisplayName", "Email" },
+                        })
+                        @await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary(ViewData)
+                        {
+                        { "ColumnName", nameof(ContactResponse.Description) },
+                        { "DisplayName", "Description" },
+                        })
+                        @await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary(ViewData)
+                        {
+                        { "ColumnName", nameof(ContactResponse.Gender) },
+                        { "DisplayName", "Gender" },
+                        })
+                            @if (User.IsInRole("ADMIN"))
+                            {
+                                <th>Options</th>
+                            }
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (ContactResponse contact in Model)
+                    {
+                        <tr>
+                            <td style="width:15%">@contact.Name</td>
+                            <td style="width:15%">@contact.Phone</td>
+                            <td style="width:15%">@contact.Email</td>
+                            <td style="width:15%">@contact.Description</td>
+                            <td style="width:15%">@contact.Gender</td>
+                                @if (User.IsInRole("ADMIN"))
+                                {
+                                    <td style="width:15%">
+                                        <a asp-controller="Contact" asp-action="Edit" asp-route-contactID="@contact.ContactId" class="btn btn-primary btn-sm">Edit</a>
+                                        @* /contact/Edit/1 *@
+                                        <a asp-controller="Contact" asp-action="Delete" asp-route-contactID="@contact.ContactId" class="btn btn-danger btn-sm">Delete</a>
+                                        @* /contact/Delete/1 *@
+                                    </td>
+                                }
+                            </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+  </div>
+</form>

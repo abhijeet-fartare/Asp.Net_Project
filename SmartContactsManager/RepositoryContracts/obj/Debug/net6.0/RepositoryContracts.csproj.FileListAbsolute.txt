@@ -1,0 +1,17 @@
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\bin\Debug\net6.0\RepositoryContracts.deps.json
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\bin\Debug\net6.0\RepositoryContracts.dll
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\bin\Debug\net6.0\RepositoryContracts.pdb
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\bin\Debug\net6.0\Entities.dll
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\bin\Debug\net6.0\IdentityEntity.dll
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\bin\Debug\net6.0\Entities.pdb
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\bin\Debug\net6.0\IdentityEntity.pdb
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\obj\Debug\net6.0\RepositoryContracts.csproj.AssemblyReference.cache
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\obj\Debug\net6.0\RepositoryContracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\obj\Debug\net6.0\RepositoryContracts.AssemblyInfoInputs.cache
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\obj\Debug\net6.0\RepositoryContracts.AssemblyInfo.cs
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\obj\Debug\net6.0\RepositoryContracts.csproj.CoreCompileInputs.cache
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\obj\Debug\net6.0\RepositoryContracts.csproj.CopyComplete
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\obj\Debug\net6.0\RepositoryContracts.dll
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\obj\Debug\net6.0\refint\RepositoryContracts.dll
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\obj\Debug\net6.0\RepositoryContracts.pdb
+F:\E-dac\.net\SmartContactsManager\RepositoryContracts\obj\Debug\net6.0\ref\RepositoryContracts.dll

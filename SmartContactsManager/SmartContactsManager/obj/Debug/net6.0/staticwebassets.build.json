@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "/WHaMfhysjlkIvtcFuvZyMs0EuiEc2ncFIuwmzBxyB0=",
+  "Source": "SmartContactsManager",
+  "BasePath": "_content/SmartContactsManager",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SmartContactsManager\\wwwroot",
+      "Source": "SmartContactsManager",
+      "ContentRoot": "F:\\E-dac\\.net\\SmartContactsManager\\SmartContactsManager\\wwwroot\\",
+      "BasePath": "_content/SmartContactsManager",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\E-dac\\.net\\SmartContactsManager\\SmartContactsManager\\wwwroot\\images\\poster.jpeg",
+      "SourceId": "SmartContactsManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\E-dac\\.net\\SmartContactsManager\\SmartContactsManager\\wwwroot\\",
+      "BasePath": "_content/SmartContactsManager",
+      "RelativePath": "images/poster.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\poster.jpeg"
+    },
+    {
+      "Identity": "F:\\E-dac\\.net\\SmartContactsManager\\SmartContactsManager\\wwwroot\\images\\register.png",
+      "SourceId": "SmartContactsManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\E-dac\\.net\\SmartContactsManager\\SmartContactsManager\\wwwroot\\",
+      "BasePath": "_content/SmartContactsManager",
+      "RelativePath": "images/register.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\register.png"
+    },
+    {
+      "Identity": "F:\\E-dac\\.net\\SmartContactsManager\\SmartContactsManager\\wwwroot\\StyleSheet.css",
+      "SourceId": "SmartContactsManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\E-dac\\.net\\SmartContactsManager\\SmartContactsManager\\wwwroot\\",
+      "BasePath": "_content/SmartContactsManager",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

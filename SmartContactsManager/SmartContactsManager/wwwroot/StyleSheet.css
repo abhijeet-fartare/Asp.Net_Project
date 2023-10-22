@@ -1,0 +1,184 @@
+﻿.bodyColour {
+    background: transparent !important;
+}
+
+.bg-primary {
+    background: #009688 !important;
+}
+
+.poster {
+    width: 100%;
+    height: 93vh;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../images/poster.jpeg);
+    background-size: cover;
+    color: white;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.my-card {
+    padding: 20px;
+    background: #ffffff;
+}
+
+.error {
+    color: red;
+}
+
+#login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 380px;
+    border: 1px solid #9C9C9C;
+    background-color: white;
+}
+
+    #login .container #login-row #login-column #login-box #login-form {
+        padding: 20px;
+    }
+
+        #login .container #login-row #login-column #login-box #login-form #register-link {
+            margin-top: -60px;
+        }
+
+        #login .container #login-row #login-column #login-box #login-form #forgot-link {
+            margin-top: 5px;
+        }
+
+/* Side bar style */
+.sidebar {
+    width: 18%;
+    background: white;
+    height: 100%;
+    position: fixed;
+    padding-top: 45px;
+    z-index: 999999999999999999;
+}
+
+    .sidebar a {
+        display: block;
+        width: 100%;
+        padding: 10px 25px;
+        text-decoration: none;
+        color: grey;
+    }
+
+        .sidebar a:hover {
+            background: #e2e2e2;
+        }
+
+    .sidebar .divider {
+        height: .5px;
+        width: 100%;
+        background: #e2e2e2;
+        margin-top: 10px;
+    }
+
+.content {
+    margin-left: 20%;
+}
+
+@media only screen and (max-width:600px) {
+    .sidebar {
+        display: none;
+        width: 80% !important;
+        background: white;
+        height: 100%;
+        position: fixed;
+        padding-top: 20px;
+    }
+
+    .content {
+        margin-left: 0% !important;
+    }
+}
+
+.sidebar .cross-btn {
+    top: 0;
+    right: 35px;
+    font-size: 36px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.content .fas {
+    cursor: pointer;
+}
+
+.profile-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* search css*/
+.search_container {
+    position: relative;
+}
+
+.search_result {
+    position: absolute;
+    background: white;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    display: none
+}
+
+.activebar {
+    background: #009688 !important;
+    color: white !important;
+}
+
+.text-red {
+    color: #ff0000;
+}
+
+.Space {
+    margin-left: 10px;
+}
+
+.box {
+    margin: 10px 20px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #d3d1d1;
+    box-shadow: 0px 0px 3px 2px #ffffff;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+.flex-1 {
+    flex: 1 auto;
+}
+
+.form-input {
+    padding: 8px 10px;
+    font-size: 105%;
+    border-radius: 8px;
+    border: 1px solid #d0d0d0;
+    width: 100%;
+    transition: box-shadow 0.2s;
+}
+
+.button {
+    padding: 8px 12px;
+    border: 2px solid #cacaca;
+    border-radius: 8px;
+    outline: 3px solid #ffffff;
+    font-size: 101%;
+}
+
+.button-blue-back {
+    margin-left:20px;
+    background-color: #3a81bd;
+    color: #ffffff;
+    border: 2px solid #3f80ca;
+}

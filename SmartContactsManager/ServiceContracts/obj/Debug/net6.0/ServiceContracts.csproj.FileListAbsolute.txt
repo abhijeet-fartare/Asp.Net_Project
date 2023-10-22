@@ -1,0 +1,17 @@
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\bin\Debug\net6.0\ServiceContracts.deps.json
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\bin\Debug\net6.0\ServiceContracts.dll
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\bin\Debug\net6.0\ServiceContracts.pdb
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\bin\Debug\net6.0\Entities.dll
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\bin\Debug\net6.0\IdentityEntity.dll
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\bin\Debug\net6.0\Entities.pdb
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\bin\Debug\net6.0\IdentityEntity.pdb
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.AssemblyReference.cache
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\obj\Debug\net6.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfoInputs.cache
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfo.cs
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.CoreCompileInputs.cache
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.CopyComplete
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\obj\Debug\net6.0\ServiceContracts.dll
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\obj\Debug\net6.0\refint\ServiceContracts.dll
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\obj\Debug\net6.0\ServiceContracts.pdb
+F:\E-dac\.net\SmartContactsManager\ServiceContracts\obj\Debug\net6.0\ref\ServiceContracts.dll

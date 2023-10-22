@@ -1,0 +1,83 @@
+﻿@model RegisterDto
+@{
+    ViewBag.Title = "Register";
+}
+
+<div class="container">
+			<div class="row">
+
+				<div class="col-md-8 offset-md-2">
+
+					<div class="my-card mt-2">
+
+						<div class="container text-center">
+							<img src="/images/register.png" style="width: 80px;">
+						</div>
+
+						<h1 class="text-center">SignUp Here</h1>
+
+                            <form asp-controller="Account" asp-action="Register" method="post">
+
+							<!-- name field -->
+							<div class="form-group">
+                            <label asp-for="Name" >Your Name</label>
+                            <input asp-for="Name" class="form-control "
+									aria-describedby="emailHelp" placeholder="Enter here">
+                            <span asp-validation-for="Name" class="text-red"></span>
+							</div>
+
+                            <!-- Email field -->
+                            <div class="form-group">
+                             <label asp-for="Email">Your Email</label>
+                             <input asp-for="Email" class="form-control "
+                                      aria-describedby="emailHelp" placeholder="Enter here">
+                             <span asp-validation-for="Email" class="text-red"></span>
+                            </div>
+
+                            <!-- password field -->
+                            <div class="form-group">
+                            <label asp-for="Password">Your Password</label>
+                            <input asp-for="Password" class="form-control "
+                                    aria-describedby="emailHelp" placeholder="Enter here">
+                            <span asp-validation-for="Password" class="text-red"></span>
+                            </div>
+
+
+                            <!-- Conform Password field -->
+                            <div class="form-group">
+                             <label asp-for="ConfirmPassword">ConfirmPassword</label>
+                                <input asp-for="ConfirmPassword" class="form-control "
+                               aria-describedby="emailHelp" placeholder="Enter here">
+                                <span asp-validation-for="ConfirmPassword" class="text-red"></span>
+                             </div>
+
+                              <!-- Phone field -->
+                                  <div class="form-group">
+                              <label asp-for="Phone">Phone</label>
+                                <input asp-for="Phone" class="form-control "
+                               aria-describedby="emailHelp" placeholder="Enter here">
+                             <span asp-validation-for="Phone" class="text-red"></span>
+                                </div>
+
+                            <!-- UserType field -->
+                            <div class="form-group">
+                             <label asp-for="UserType">Resgister As :- </label>
+                             <input type="radio" id="USER" asp-for="UserType" value="USER" checked />
+                             <label for="USER">User</label>
+                             <input type="radio" id="ADMIN" asp-for="UserType" value="ADMIN" />
+                             <label for="ADMIN">Admin</label>
+                            </div>
+
+							<div class="container text-center">
+								<button type="submit" class="btn bg-primary text-white">Submit</button>
+								<button type="reset" class="btn bg-warning text-white">Reset</button>
+							</div>
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
